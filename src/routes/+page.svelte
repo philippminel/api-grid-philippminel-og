@@ -39,6 +39,6 @@
 	h1{
 		color: whitesmoke;
 		margin-top: 50px;
-		font-size: 40pt;
+		font-size: 40pt; 
 	}
 </style>
