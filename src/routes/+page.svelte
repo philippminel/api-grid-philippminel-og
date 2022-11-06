@@ -33,8 +33,12 @@
 	grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
 	/* grid-template-columns:  */
 	gap: 25px;
+	margin-top: 130px;
+
 }
 	h1{
 		color: whitesmoke;
+		margin-top: 50px;
+		font-size: 40pt;
 	}
 </style>
