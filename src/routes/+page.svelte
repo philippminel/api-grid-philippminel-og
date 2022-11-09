@@ -39,7 +39,7 @@
 }
 	h1{
 		color: whitesmoke;
-		margin-top: 50px;
+		margin-top: 70px;
 		font-size: 40pt; 
 	}
 </style>

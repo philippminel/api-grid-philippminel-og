@@ -22,7 +22,7 @@
     }
 
     .movie{
-        opacity: 0.5;
+        opacity: 0.7;
         transition:all 0.5s;
     }
     /* img:hover {
