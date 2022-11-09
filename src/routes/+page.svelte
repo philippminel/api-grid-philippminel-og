@@ -30,11 +30,12 @@
 
 .container{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
 	/* grid-template-columns:  */
 	gap: 25px;
 	margin-top: 130px;
-
+	transition: all 0.5s;
+	border-radius:20%;
 }
 	h1{
 		color: whitesmoke;
