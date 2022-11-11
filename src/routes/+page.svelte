@@ -12,8 +12,9 @@
 		);
 
 		const answer = await response.json();
+		console.log(answer)
 		movies = answer.results;
-		console.log(movies[1]);
+		// console.log(movies[1]);
 	});
 </script>
 
@@ -22,7 +23,9 @@
 
 <div class = "container">
 	{#each movies as movie} 
-		<Moviecard movieInput={movie}></Moviecard>
+		<a href={"/movieDetail/" + movie.id}>
+			<Moviecard movieInput={movie}></Moviecard>
+		</a>
 	{/each}
 </div>
 
@@ -33,13 +36,18 @@
 	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
 	/* grid-template-columns:  */
 	gap: 25px;
-	margin-top: 130px;
+	margin-top: 100px;
 	transition: all 0.5s;
 	border-radius:20%;
 }
 	h1{
 		color: whitesmoke;
-		margin-top: 70px;
+		margin-top: 150px;
 		font-size: 40pt; 
+	}
+
+	a{
+		color:white;
+		text-decoration: none;
 	}
 </style>

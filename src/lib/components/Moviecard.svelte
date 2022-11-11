@@ -10,9 +10,11 @@
 
 <style>
     img {
-	width: 100%;
-    transition: all 0.5s;
-    border-radius: 5%;
+        width: 100%;
+        transition: all 0.5s;
+        border-radius: 5%;
+        box-shadow: 0px 0px 4px 6px black;
+
     }
     
     .movie:hover{
@@ -25,9 +27,9 @@
         opacity: 0.7;
         transition:all 0.5s;
     }
-    /* img:hover {
-      transform: scale(1.1);
-    } */
+    img:hover {
+        box-shadow: 0px 0px 4px 4px white;
+    }
 
     h2{
         color: whitesmoke;
