@@ -104,7 +104,7 @@
     .movieTitle{
         font-size: 35pt;
         color: white;
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     
@@ -115,16 +115,12 @@
     }
 
     .genres{
-        
         display: flex;
         flex-direction: row;
         color: grey;
         justify-content: flex-end;
         gap: 30px;
-
     }
 
 </style>
-
-
 
